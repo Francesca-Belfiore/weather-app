@@ -1,0 +1,15 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 20px;
+}
+
+.search-bar {
+  width: 250px;
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: antiquewhite;
+  margin: 10px;
+}

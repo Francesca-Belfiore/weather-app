@@ -1,0 +1,13 @@
+.clock {
+    font-weight: 400px;
+    font-size: 25px;
+    background: #f5f5f56e;
+    width: fit-content;
+    margin: auto;
+    padding: 25px 60px;
+    border-radius: 25px;
+}
+
+.clock h1 {
+    font-size: 80px;
+}
