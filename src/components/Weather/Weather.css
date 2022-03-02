@@ -1,0 +1,26 @@
+.search-bar {
+  width: 250px;
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.weather-box {
+  background-color: #f5f5f5d1;
+  border-radius: 25px;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+.weather {
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  text-transform: capitalize;
+}
