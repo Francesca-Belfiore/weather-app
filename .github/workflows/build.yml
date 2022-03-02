@@ -23,11 +23,11 @@ jobs:
     - uses: actions/checkout@v2
 
     # Create a .env file using values stored in the repo secrets
-      - name: Make envfile
-        uses: SpicyPizza/create-envfile@v1
-        with:
-          envkey_REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
-          file_name: .env
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v1
+      with:
+        envkey_REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
+        file_name: .env
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
