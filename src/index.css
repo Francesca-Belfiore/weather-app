@@ -4,8 +4,14 @@
   padding: 0;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   min-height: 100vh;
   margin: auto;
   /* background: linear-gradient(0deg, rgba(238,233,174,1) 0%, rgba(119,165,219,1) 61%, rgba(85,133,190,1) 100%); */
+  background-repeat: no-repeat;
+  background-size:cover;
 }
